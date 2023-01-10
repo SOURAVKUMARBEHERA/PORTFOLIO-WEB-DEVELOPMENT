@@ -1,0 +1,677 @@
+
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background: #0b4e85;
+    }
+
+    header {
+        position: fixed;
+    }
+
+    .sec3 {
+        font-size: 50px;
+        font-weight: 600px;
+        color: rgb(255, 230, 0);
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    .sec3 span {
+        color: rgb(255, 254, 254);
+    }
+
+    .sec1 img {
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        border-radius: 100px;
+        margin-top: 100px;
+        border: 4px solid rgb(255, 230, 0);
+
+    }
+
+    .sec2 {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    .sec2 li {
+        font-size: 30px;
+        font-weight: 400px;
+        list-style: none;
+        margin-top: 20px;
+        background-color: rgb(148, 205, 228);
+        display: flex;
+        flex-flow: column;
+        width: 240px;
+        border-radius: 25px;
+        height: 40px;
+    }
+
+    .sec2 li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        height: 40px;
+    }
+
+    .sec2 li a:hover {
+        background: rgb(255, 230, 0);
+        border-radius: 25px;
+    }
+
+    .Education {
+        margin-left: 300px;
+        background: #9fd1fa;
+        height: 850px;
+    }
+
+    .Education .box span {
+        font-size: 1.3rem;
+        background: #333;
+        color: #fff;
+        border-radius: 5rem;
+        padding: .5rem 2.5rem;
+        margin-left: 8px;
+    }
+
+    .Education .box {
+        width: 32%;
+        display: inline-block;
+        margin-bottom: 30px;
+
+    }
+
+    .Education .box p {
+        padding: 20px;
+        margin-left: 50px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+
+    .Education .box h3 {
+        margin-top: 20px;
+        margin-left: 70px;
+        color: rgb(0, 0, 0);
+    }
+
+    .Education .box1 span {
+        font-size: 1.3rem;
+        background: rgb(51, 51, 51);
+        color: rgb(0, 0, 0);
+        border-radius: 5rem;
+        padding: .5rem 2.5rem;
+        margin-left: 8px;
+    }
+
+    .Education .box1 {
+        width: 32%;
+        display: inline-block;
+
+    }
+
+    .Education .box1 p {
+        padding: 20px;
+        margin-left: 50px;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+
+    .Education .box1 h3 {
+        margin-top: 20px;
+        margin-left: 70px;
+        color: rgb(0, 0, 0);
+    }
+
+    .Education .box-container {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+
+    .Education .heading {
+        font-size: 50px;
+        font-weight: 500px;
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .Education .heading span {
+        font-size: 50px;
+        font-weight: 500px;
+        color: rgb(255, 230, 0);
+    }
+
+    .Education .box-container .box1 i {
+        color: rgb(0, 0, 0);
+        background: rgb(255, 230, 0);
+        width: 60px;
+        height: 45px;
+        text-align: center;
+        font-size: 36.5px;
+        border-radius: 50%;
+    }
+
+    .Education .box-container .box i {
+        color: rgb(0, 0, 0);
+        background: rgb(255, 230, 0);
+        width: 60px;
+        height: 45px;
+        text-align: center;
+        font-size: 36.5px;
+        border-radius: 50%;
+    }
+
+    .Home {
+        color: rgb(0, 0, 0);
+        margin-left: 300px;
+        background: #9fd1fa;
+        height: 850px;
+        display: flex;
+
+    }
+
+    .Home .text-3 span {
+        color: crimson;
+        margin-left: 10px;
+    }
+
+    .Home .text-1 {
+        font-size: 70px;
+        font-weight: 800px;
+        margin-left: 280px;
+        margin-top: 270px;
+
+    }
+
+    .Home .text-2 {
+        font-size: 80px;
+        font-weight: 900px;
+        color: rgb(255, 230, 0);
+        margin-left: 280px;
+    }
+
+    .Home .text-3 {
+        font-size: 60px;
+        font-weight: 700px;
+        color: rgb(0, 0, 0);
+        margin-left: 280px;
+    }
+
+    .Home a {
+        margin-left: 280px;
+    }
+
+    .Home .btn {
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        border-radius: 30px;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .Home a i {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .About {
+        margin-left: 300px;
+        color: rgb(0, 0, 0);
+        background: #9fd1fa;
+        height: 850px;
+    }
+
+    .About .row {
+        display: flex;
+    }
+
+    .About .info {
+        color: rgb(255, 230, 0);
+        font-size: 30px;
+        font-weight: 300px;
+        margin-top: 90px;
+        margin-left: 70px;
+    }
+
+    .About .info span {
+        color: rgb(0, 0, 0);
+    }
+
+    .About .info h3 {
+        margin-bottom: 9px;
+    }
+
+    .About .heading {
+        text-align: center;
+        font-size: 50px;
+        font-weight: 600px;
+        margin-bottom: 10px;
+    }
+
+    .About .heading span {
+        color: rgb(255, 230, 0);
+    }
+
+    .About .counter {
+        margin-top: 70px;
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .About .counter .box {
+        display: inline-block;
+        width: 35%;
+        background: #1a1a1a;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        height: 120px;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .About .counter .box1 {
+        display: inline-block;
+        width: 35%;
+        background: #1a1a1a;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        height: 120px;
+        font-size: 25px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .About .counter .box span {
+        color: rgb(255, 230, 0);
+        font-size: 30px;
+    }
+
+    .About .counter .box1 span {
+        color: rgb(255, 230, 0);
+        font-size: 30px;
+    }
+
+
+    .About .counter .sec10 {
+        text-align: center;
+    }
+
+    .About .counter .sec11 {
+        text-align: center;
+    }
+
+    .About .btn {
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .About .btn1 {
+        width: 200px;
+        height: 50px;
+        border-radius: 8px;
+        font-size: 15px;
+        margin-top: 80px;
+        margin-left: 420px;
+        cursor: pointer;
+    }
+
+    .About .btn i {
+        color: rgb(255, 230, 0);
+        margin-left: 5px;
+        font-size: 17px;
+    }
+
+    .About .btn1 i {
+        color: rgb(255, 230, 0);
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+
+    .Contact {
+        margin-left: 300px;
+        background: #9fd1fa;
+        height: 700px;
+    }
+
+    .Contact .row {
+        display: flex;
+    }
+
+    .Contact .row form {
+        margin-left: 30px;
+    }
+
+    .Contact .row form input {
+        margin-bottom: 20px;
+        width: 500px;
+        height: 40px;
+        border-radius: 8px;
+
+    }
+
+    .Contact .row form textarea {
+        width: 500px;
+        border-radius: 9px;
+    }
+
+    .Contact .row form textarea::placeholder {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .Contact .row form ::placeholder {
+        margin-left: 15px;
+        font-size: 20px;
+        color: rgb(39, 37, 37);
+    }
+
+    .Contact .info h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .Contact .info {
+        width: 500px;
+        margin-left: 20px;
+        color: rgb(0, 0, 0);
+    }
+
+    .Contact .info i {
+        font-size: 26px;
+        margin-right: 20px;
+        color: rgb(255, 230, 0);
+    }
+
+    .Contact .heading {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 500px;
+        color: rgb(0, 0, 0);
+    }
+
+    .Contact .heading span {
+        color: rgb(255, 230, 0);
+    }
+
+    .Contact .title {
+        font-size: 30px;
+        color: rgb(255, 230, 0);
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .Contact .btn {
+        width: 120px;
+        height: 35px;
+        margin-top: 10px;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .Contact .btn i {
+        color: rgb(255, 230, 0);
+        margin-left: 5px;
+        font-size: 17px;
+    }
+
+    .Contact .content {
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .Skills {
+        margin-left: 300px;
+        background: #9fd1fa;
+        height: 850px;
+    }
+
+    .Skills .skills-content p {
+        color: rgb(0, 0, 0);
+    }
+
+    .Skills .title {
+        text-align: center;
+        font-size: 50px;
+        color: rgb(255, 230, 0);
+    }
+
+    .Skills .title span {
+        color: rgb(0, 0, 0);
+        margin-right: 10px;
+    }
+
+    .Skills .text {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-left: 100px;
+        color: rgb(255, 230, 0);
+        margin-bottom: 30px;
+    }
+
+    .Skills .skills-content p {
+        font-size: 23px;
+        width: 60%;
+        margin-left: 100px;
+    }
+
+    .Skills .skills-content .right {
+        margin-top: 80px;
+    }
+
+    .Skills .skills-content .right .bars {
+        color: rgb(0, 0, 0);
+    }
+
+    .Skills .skills-content .right .info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 100px;
+        margin-right: 300px;
+        margin-top: 30px;
+    }
+
+    .Skills .skills-content .right span {
+        font-weight: 500px;
+        font-size: 25px;
+    }
+
+    .Skills .skills-content .right .html {
+        height: 5px;
+        width: 58.5%;
+        background-color: rgb(255, 230, 0);
+        margin-left: 100px;
+    }
+
+    .Skills .skills-content .right .css {
+        height: 5px;
+        width: 52%;
+        background-color: rgb(255, 230, 0);
+        margin-left: 100px;
+    }
+
+    .Skills .skills-content .right .javascript {
+        height: 5px;
+        width: 45.5%;
+        background-color: rgb(255, 230, 0);
+        margin-left: 100px;
+    }
+
+    .Skills .skills-content .right .reactjs {
+        height: 5px;
+        width: 26%;
+        background-color: rgb(255, 230, 0);
+        margin-left: 100px;
+    }
+
+    @media (max-width:1200px) {
+
+        html {
+            font-size: 55%;
+        }
+
+        .home {
+            padding: 1rem 4rem;
+        }
+
+    }
+
+    @media (max-width:991px) {
+
+        header {
+            left: -120%;
+        }
+
+        #menu {
+            display: block;
+        }
+
+        header.toggle {
+            left: 0%;
+        }
+
+        body {
+            padding: 0;
+        }
+
+    }
+
+    @media (max-width:768px) {
+
+        html {
+            font-size: 50%;
+        }
+
+    }
+
+    @media (max-width:400px) {
+
+        header {
+            width: 100vw;
+        }
+
+        .heading {
+            margin: 0 3rem;
+        }
+
+        .about .row .counter .box {
+            width: 100%;
+        }
+
+        .education .box-container .box {
+            width: 100%;
+        }
+
+        .portfolio .box-container .box {
+            width: 100%;
+        }
+
+        .contact .row form {
+            margin: 3rem 0;
+        }
+
+    }
+
+    .About .underline {
+        height: 3px;
+        width: 20%;
+        background: #000000;
+        margin-left: 460px;
+        margin-bottom: 40px;
+    }
+
+    .Education .underline {
+        height: 3px;
+        width: 30%;
+        background: #000000;
+        margin-left: 400px;
+        margin-bottom: 40px;
+    }
+
+    .Skills .underline {
+        height: 3px;
+        width: 19%;
+        background: #000000;
+        margin-left: 460px;
+        margin-bottom: 60px;
+    }
+
+    .Contact .underline {
+        height: 3px;
+        width: 27%;
+        background: #000000;
+        margin-left: 420px;
+        margin-bottom: 100px;
+    }
+    .Services .underline {
+        height: 3px;
+        width: 25%;
+        background: #000000;
+        margin-left: 425px;
+        margin-bottom: 170px;
+    }
+
+    .Services{
+        margin-left: 300px;
+        background: #9fd1fa;
+        height: 850px;
+    }
+    .Services .box{
+        width: 90%;
+        color: rgb(0, 0, 0);
+        background: #9fd1fa;
+        padding: 10px;
+        border-radius: 7px;
+    }
+    .Services .services-content{
+        display: flex;
+    }
+    .Services .text{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .Services p{
+        font-size: 18px;
+        margin-left: 25px;
+    }
+    .Services i{
+        margin-left: 110px;
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: rgb(255, 230, 0);
+    }
+    .Services .card{
+        margin-left: 40px;
+    }
+    .Services .heading{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .Services .heading span{
+        color: rgb(255, 230, 0);
+        margin-left: 10px;
+    
+    }
